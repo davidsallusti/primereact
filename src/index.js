@@ -5,6 +5,7 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { ConfirmDialog } from 'primereact/confirmdialog';
 import { confirmDialog } from 'primereact/confirmdialog';
+import { Toast } from 'primereact/toast';
 
 export {
   Checkbox,
@@ -13,5 +14,6 @@ export {
   DataTable,
   Column,
   ConfirmDialog,
-  confirmDialog
+  confirmDialog,
+  Toast
 };
